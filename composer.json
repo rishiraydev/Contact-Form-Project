@@ -1,0 +1,16 @@
+{
+    "name": "your-project/contact-form",
+    "description": "A secure contact form with PHP, MySQL, and PHPMailer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPMailer\\PHPMailer\\": "vendor/phpmailer/phpmailer/src/"
+        }
+    }
+}
