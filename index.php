@@ -1,3 +1,6 @@
+<?php
+require_once 'config.php'; // Ensure correct path
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
