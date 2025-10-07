@@ -1,0 +1,14 @@
+/contact-form/
+│
+├── index.php              # Main contact form page
+├── process.php            # Form processing script
+├── config.php             # Database and email configuration
+├── success.php            # Success page
+├── error.php              # Error page
+├── style.css              # Custom styles
+├── composer.json          # For PHPMailer dependency
+│
+├── database/
+│   └── contact_form.sql   # Database schema
+│
+└── vendor/                # PHPMailer (installed via Composer)
